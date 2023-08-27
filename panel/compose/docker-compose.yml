@@ -8,6 +8,7 @@ x-common:
     MYSQL_ROOT_PASSWORD: "QAszxedwaEDFh0o97985t8ighJiopjkolbnuiyt6787897yhJHOUIKPMNBuhikU8989uidsh89ioioshijohljnkHJGGJiug8y9ou"
   panel:
     &panel-environment
+    APP_KEY: "[[{run echo -n 'base64:'; openssl rand -base64 32} and paste in here removing all brackets and leaving quotes]]"
     APP_URL: "https://pt.wr0ng.space"
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "UTC"
