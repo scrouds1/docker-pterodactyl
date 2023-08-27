@@ -27,11 +27,17 @@ Create second `A record` pointing to wings server IP. If you're using Cloudflare
 git clone https://github.com/scrouds1/pterodactyl-docker.git
 ```
 
+```
+sudo mv pterodactyl-docker/ pterodactyl/
+sudo chgrp -R docker pterodactyl/
+sudo chmod 600 _base/data/traefik/acme.json
+```
+
 <b>Set correct acme.json permissions</b><br />
 
 Navigate to `_base/data/traefik/` and run
 ```
-sudo chmod 600 acme.json
+above
 ```
 
 <b>Start docker compose</b><br />
