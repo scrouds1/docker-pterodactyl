@@ -46,6 +46,13 @@ Inside of `_base/compose` run
 docker-compose up -d
  ```
 
+APP_KEY NEEDS TO BE SET, run:
+```
+echo -n 'base64:'; openssl rand -base64 32
+```
+and paste it into the docker compose under app_key for panel
+
+
 ### Setting up Panel
 
 <b>Configure variables</b><br />
