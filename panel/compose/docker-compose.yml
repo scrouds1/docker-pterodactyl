@@ -4,14 +4,14 @@ x-common:
     &db-environment
     # Do not remove the "&db-password" from the end of the line below, it is important
     # for Panel functionality.
-    MYSQL_PASSWORD: &db-password "CHANGE_ME"
-    MYSQL_ROOT_PASSWORD: "CHANGE_ME"
+    MYSQL_PASSWORD: &db-password "jkhgghjkjhkgl799786697hjijhikhbjkhjklhu9889hLKJHKGHKGJKhgyh8i7oy789yh9hHKUJIOLqsEShjk"
+    MYSQL_ROOT_PASSWORD: "QAszxedwaEDFh0o97985t8ighJiopjkolbnuiyt6787897yhJHOUIKPMNBuhikU8989uidsh89ioioshijohljnkHJGGJiug8y9ou"
   panel:
     &panel-environment
-    APP_URL: "https://panel.example.com"
+    APP_URL: "https://pt.wr0ng.space"
     # A list of valid timezones can be found here: http://php.net/manual/en/timezones.php
     APP_TIMEZONE: "UTC"
-    APP_SERVICE_AUTHOR: "admin@example.com"
+    APP_SERVICE_AUTHOR: "wr0ng.alliance@gmail.com"
   mail:
     &mail-environment
     MAIL_FROM: "noreply@example.com"
