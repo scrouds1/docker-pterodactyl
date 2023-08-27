@@ -24,7 +24,7 @@ Create second `A record` pointing to wings server IP. If you're using Cloudflare
 ### Preparations / Setting up Traefik
 <b>Clone repository</b><br />
 ```
-git clone https://github.com/EdyTheCow/pterodactyl-docker.git
+git clone https://github.com/scrouds1/pterodactyl-docker.git
 ```
 
 <b>Set correct acme.json permissions</b><br />
